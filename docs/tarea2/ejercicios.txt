@@ -1,0 +1,8 @@
+
+1) Use blender para crear un suelo, con superficie irregular.
+2) En el programa, importe una instancia de su suelo.
+3) Modifique el programa para que pueda mover al suzanne (mono) en el plano XY usando las flechas del teclado u otra combinacion de teclas (podria ser teclado numerico)
+4) Posicione la camara sobre los objetos, mirando siempre hacia el mono
+5) Haga que la camara, ademas de mirar al mono, le siga el movimiento.
+6) Cambie la proyeccion de la camara a ortografica
+7) Finalmente, implemente una funcion de salto para el mono, utilizando la tecla "espacio" .
