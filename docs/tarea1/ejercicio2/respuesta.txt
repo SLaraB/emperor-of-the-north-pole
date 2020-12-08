@@ -1,0 +1,4 @@
+A medida que aumenta n se puede evidenciar que la figura obtenida es similar
+al triangulo de Sierpinski. Mientras más aumente n, los puntos a dibujar serán
+cada vez más cercanos entre si, generando el fractal.
+

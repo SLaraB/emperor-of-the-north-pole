@@ -1,0 +1,13 @@
+El ciclo for es aquel que efectúa el número de cálculos a realizar.
+Mientras i sea un número pequeño, implica que menor será la cantidad
+de cálculos. En contraparte, si i es grande, se realizará una mayor
+cantidad de cálculos.
+
+Estos cálculos son realizados para darle un valor numérico a las regiones
+de la ventana, por lo tanto, existe una relación entre i y valor numérico
+que adquieren las regiones de la ventana en cierta posición.
+
+Estos cálculos están directamente relacionados con los colores. Si el valor
+numérico de la region pertenece a un cierto intervalo acotado, entonces
+la región adquirirá un color determinado, en caso contrario, adquirirá otro.
+

@@ -1,0 +1,14 @@
+En este ejercicio usted generara el fractal de Mandelbrot haciendo uso de los
+conocimiento adquiridos en la clase sobre fractales. Utilice el programa ya
+construido, y trabaje en 'shader.glsl' solamente.
+
+1) calcule el valor de "z_{n+1} = z_{n}^2 + c" utilizando un numero "n" de
+iteraciones escogido en el codigo.
+
+2) Utilice la informacion de convergencia o divergencia para dibujar distintos
+colores de pixel. Use sub-rangos asociados a colores en el rango [0,2].
+Use al menos 4 colores.
+
+
+3) Varie el numero de iteraciones 'n' y comente en un archivo "respuesta.txt"
+cual es el comportamiento observado y por que cree que sucede.

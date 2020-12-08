@@ -1,0 +1,21 @@
+En este ejercicio usted generara otro fractal como resultado de un proceso
+aleatorio. Utilice un ejemplo de los laboratorios, como el del triangulo sin
+indices en este caso (ya que no habran triangulos, solo puntos).
+
+1) Ubique tres puntos p1, p2, p3, (x,y,z) para formar un triangulo equilatero. Trate de
+abarcar gran parte del area visible [-1,1] x [-1,1].
+
+2) [ANTES DE DIBUJAR] Genere 'n' (n dado como argumento, e.j: ./prog n) 
+puntos aleatorios dentro del triangulo. 
+El primer punto lo ubica aleatoreamente dentro del triangulo. Para el resto 
+de los 'n-1' puntos, haga lo siguiente:
+
+    a) Escoger uno de los tres puntos p1, p2, p3 de forma aleatoria.
+    b) Calcule la posicion del punto medio entre el vertice de triangulo
+    escogido y el punto anteriormente insertado.
+    c) Inserte el nuevo punto en esta ubicacion e ir al paso a).
+
+3) Teniendo la lista de los n puntos mas los p1,p2,p3, todos en un mismo 
+arreglo, dibujelos todos en OpenGL como 'glDrawArrays' usando GL_POINTS y 
+conteste en un archivo respuesta.txt cual es la figura que se forma y en que 
+afecta aumentar 'n' en este caso.
